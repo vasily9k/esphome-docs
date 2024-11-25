@@ -300,7 +300,7 @@ whose ``id`` is  set to ``player_volume``:
                 else:
                     - logger.log:
                         format: "Error: Response status: %d, message %s"
-                        args: [response->status_code, body.c_str()];
+                        args: [response->status_code, body.c_str()]
 
 See Also
 --------
